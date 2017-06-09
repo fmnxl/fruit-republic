@@ -1,23 +1,23 @@
-# Fruit Republic
+# 🍎🍊🍌 Fruit Republic
 
 Fruits is all you need. [Check it out here](https://freemanon.github.io/fruit-republic/)
 
 This is a demo shopping cart app written in React.
 
-# Scripts
+# 📃 Scripts
 
 - `npm start` runs the app in dev mode
 - `npm run build` builds and minifies the app
 - `npm run test` runs tests using jest
 - `npm run deploy` builds and deploys to gh-pages
 
-# Approach
+# 👉 Approach
 
 - Test driven development
 - As far as possible keeping functions functional and components stateless for better unit testing
 - Separate e2e and unit tests. At the moment they are all run at the same time, but in the future as the app expands the e2e tests will take longer and longer and thus should be run less often (instead on each save)
 
-# Application Structure
+# 📁 Application Structure
 
 Here are the main bits of the app:
 
@@ -30,7 +30,7 @@ within the page.
 
 `src/commponents/*` : Stateless components that builds up the app
 
-# Technologies
+# ⚙ Technologies
 
 - React (duh)
 - Poi: Build and dev environment tooling for front-end projects
