@@ -16,21 +16,34 @@ const ShoppingBagItem = ({
     <div className="fl w-100 w-25-ns tl">
       <h1 className="name f5 f4-ns mv0">{name}</h1>
       <h2 className="price f5 mv0">@ {formatPrice(price)}</h2>
-      {isOnPromo &&
-        <div className="is-on-promo f5 mv0 green">Promo: 3 for 2!</div>}
+      { isOnPromo &&
+        <div className="is-on-promo f5 mv0 green">Promo: 3 for 2!</div> }
     </div>
     <div className="fl w-100 w-50-ns tc">
       <div className="mt1">Quantity</div>
-      <button className="decrease-button input-reset br-100 w2 h2 bn" onClick={onDecreaseQuantity}>-</button>
-      <span
-        className="quantity tc input-reset ph4"
+      <button
+        className="decrease-button input-reset br-100 w2 h2 bn"
+        onClick={onDecreaseQuantity}
       >
+        -
+      </button>
+      <span className="quantity tc input-reset ph4">
         {quantity}
       </span>
-      <button className="increase-button input-reset br-100 w2 h2 bn" onClick={onIncreaseQuantity}>+</button>
+      <button
+        className="increase-button input-reset br-100 w2 h2 bn"
+        onClick={onIncreaseQuantity}
+      >
+        +
+      </button>
     </div>
     <div className="fl w-100 w-25-ns tc tr-ns">
-      <button className="remove-button input-reset bn mt2 pa2" onClick={onRemove}>Remove</button>
+      <button
+        className="remove-button input-reset bn mt2 pa2"
+        onClick={onRemove}
+      >
+        Remove
+      </button>
     </div>
   </div>
 )
