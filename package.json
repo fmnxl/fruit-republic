@@ -1,6 +1,7 @@
 {
   "name": "fruit-republic",
   "version": "0.0.1",
+  "homepage": "/fruit-republic/",
   "dependencies": {
     "ramda": "^0.24.1",
     "react": "~15.5.4",
@@ -10,7 +11,8 @@
   "scripts": {
     "start": "poi",
     "build": "poi build",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -19,6 +21,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "enzyme": "^2.8.2",
     "eslint": "^3.19.0",
+    "gh-pages": "^1.0.0",
     "jest": "^20.0.4",
     "react-test-renderer": "^15.5.4"
   },

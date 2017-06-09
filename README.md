@@ -1,6 +1,6 @@
 # Fruit Republic
 
-Fruits is all you need.
+Fruits is all you need. [Check it out here](https://freemanon.github.io/fruit-republic/)
 
 This is a demo shopping cart app written in React.
 
@@ -9,6 +9,7 @@ This is a demo shopping cart app written in React.
 - `npm start` runs the app in dev mode
 - `npm run build` builds and minifies the app
 - `npm run test` runs tests using jest
+- `npm run deploy` builds and deploys to gh-pages
 
 # Approach
 
